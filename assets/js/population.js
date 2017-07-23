@@ -55,7 +55,6 @@ var population = {
                 }
             }
             this.pairs = newPairs;
-            newPairs = null;
 
             // Save year of twice
             if (this.pairs.length >= this.twice) {
