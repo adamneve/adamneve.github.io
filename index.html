@@ -601,10 +601,10 @@ var population = {
            setTimeout(function () {
                var ppairs = $('#pfirstpairs').val().replace(/[^0-9,]/g, '');
                if (ppairs.length > 0 && ppairs.split(',').length > 0) {
-                   population.pairs = ppairs;
+                   population.firstPairs = ppairs;
                    $('#pfirstpairs').val(ppairs);
                } else {
-                   population.pairs = [20];
+                   population.firstPairs = [20];
                    $('#pfirstpairs').val(20);
                }
                population.maxAge = $('#page').val();
