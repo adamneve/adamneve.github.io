@@ -571,7 +571,7 @@ var population = {
        setTimeout(function() {
            $('#paccident').change(function () {
                var val = parseInt($(this).val());
-               if (val > 0) {
+               if (val >= 0) {
                    $('.paccident').text(val);
                }
            });
